@@ -1,0 +1,13 @@
+{
+  "name": "frontend-site-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass ./assets/scss:./assets/css --watch --style=compressed"
+  },
+  "keywords": [],
+  "author": "Morteza",
+  "license": "ISC"
+}

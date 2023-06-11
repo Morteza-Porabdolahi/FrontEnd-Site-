@@ -1,0 +1,40 @@
+@use 'animations' as *;
+
+@mixin headerStyles($fs, $color) {
+    font-size: $fs;
+    color: $color;
+}
+
+@mixin buttonStyles($bg, $border, $fs, $py, $px) {
+    transition: all .3s;
+    padding: $py $px;
+    background: $bg;
+    border: $border;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff;
+    font-size: $fs;
+}
+
+@mixin descStyles($color) {
+    font-size: .9rem;
+    line-height: 1.4rem;
+    color: $color;
+    font-weight: 400;
+}
+
+@mixin flexDisplay($justify, $dir) {
+    display: flex;
+    justify-content: $justify;
+    flex-direction: $dir;
+    align-items: center;
+}
+
+@mixin opacityAnim($duration) {
+    animation: opacity $duration;
+}
+
+@mixin modalAnim($duration) {
+    animation: modal $duration;
+}

@@ -1,0 +1,128 @@
+@media only screen and (max-width : 1120px) {
+
+    .main .seo,
+    .main .portfolio {
+        flex-direction: column;
+    }
+
+    .main .seo .seo-loptop,
+    .main .seo .seo-elements,
+    .main .portfolio-loptop,
+    .main .portfolio-elements {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main .customers {
+        padding: 3rem;
+        text-align: center;
+
+        .customers-list__item {
+            display: block;
+        }
+
+        .customers-list__other {
+            flex-direction: row;
+            gap: 1rem;
+        }
+    }
+}
+
+@media only screen and (max-width : 856px) {
+    .main .last-projects-cards__card {
+        width: calc(50% - 2rem);
+    }
+
+    .main {
+        .limitless {
+            padding: 2rem;
+
+            .limitless-options {
+                padding: 0;
+            }
+        }
+
+        .parallax {
+            padding: 4rem 0;
+        }
+
+        .seo {
+            padding: 2rem;
+
+            .seo-elements {
+                padding: 0;
+            }
+        }
+
+        .portfolio {
+            padding: 2rem;
+
+            .portfolio-elements {
+                padding: 0;
+            }
+        }
+
+        .download-section {
+            padding: 3rem 1rem;
+        }
+    }
+
+    .header-row {
+        justify-content: space-between;
+        padding: 1.5rem;
+
+        .burger {
+            display: block;
+            font-size: 1.5rem;
+        }
+
+        .header-list {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width : 560px) {
+
+    .main .last-projects-cards__card {
+        width: 100%;
+    }
+
+    .main {
+        .download-section__header {
+            font-size: 1rem;
+        }
+
+        .clients__title {
+            text-align: center;
+        }
+
+        .customers-list__img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .buttons__read {
+        padding: 1rem;
+    }
+
+    .header-down {
+        padding: 0 1rem;
+
+        .titles__title {
+            font-size: 2rem;
+        }
+
+        .buttons {
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+    }
+}
